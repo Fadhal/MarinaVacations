@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Marina Vacations</title>
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+	<link href="css/bootstrap.min.css" rel="stylesheet"/>
+    <link type="text/css" href="stylesheet.css" rel="stylesheet"/>
+</head>
+<body>
+    
+<!--Header-->
+    <div class="navbar navbar-default navbar-static-top"><!--Main header-->
+        <div class="container">
+             <a href="index.html" id="logo" class="nav navbar-brand active pull-top"><img src="Images/MVlogosmall.png"                       alt="brand"></a>
+            <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse"><b class="caret"></b>                 </button><!--Collapse button for mobile version-->
+                <div class="collapse navbar-collapse navHeaderCollapse"><!--for mobile version-->
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="index.html" class="active">Home</a></li><!--active class added for Highlighting-->
+
+                        <!--Dropdown menu for Services-->
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Services
+                                <b class="caret"></b><!--dropdown arrow-->
+                                <ul class="dropdown-menu">
+                                    <li><a href="Packages.html">Holiday Packages</a></li>
+                                    <li><a href="Safari.html">Desert Safari</a></li>
+                                    <li><a href="DhowCruise.html">Dhow Cruise</a></li>
+                                </ul>
+                            </a>               
+                        </li>
+                        
+                        <li><a href="AboutUs.html">About Us</a></li>
+                    </ul>
+                </div>
+        </div>
+    </div>
+<!--Header-->
+
+<!--Beginning of Heading-->
+    <div class="container text-center">
+        <div class="well well-lg">
+
+<!--Script for mouse hover effect-->
+    <script type="text/javascript">
+    if (document.images) {
+        MVLogo = new Image;
+        MVLogoInverse = new Image;
+
+        MVLogo.src = "Images/Marina%20Logo2.png";
+        MVLogoInverse.src = "Images/Marina Logo2 Inverse.png";
+    }
+    function swapImage(thisImage,newImage) {
+        if (document.images) {
+            document[thisImage].src = eval(newImage + ".src");
+        }
+    }
+    </script>
+    <a href="index.html" onMouseOver="swapImage('MV','MVLogoInverse')" onMouseOut="swapImage('MV','MVLogo')"><img src="Images/Marina%20Logo2.png" border="0" name="MV"></a>
+<!--end of script-->
+
+
+                <h1 id="font">Marina Vacations</h1>
+            <div id="smallfont">
+                    <p> Premium Dubai Inbound Vacation Planners</p> 
+            </div>
+        </div>
+    </div>
+<!--End of Heading-->
+    
+    <div class="container">
+        <div class="well well-sm">
+            <div class="media">
+                <div class="media-left">
+                    <a href="http://www.dubai.ae/en/aboutdubai/Pages/default.aspx"><img class="media-object" src="Images/Dubai.jpg" alt="Dubai"></a>
+                </div>
+                <div class="media-body">
+                    <h4 class="media-heading"><b>About Dubai</b></h4>
+                        <p>Dubai is a city in the United Arab Emirates known for luxury shopping, ultramodern architecture and a lively nightlife scene. Burj Khalifa, an 830m-tall tower, dominates the skyscraper-filled skyline. At its foot lies Dubai Fountain, with jets and lights choreographed to music. On man-made islands just offshore is Atlantis, the Palm, a resort with water and marine-animal parks.</p>
+                        <a href="http://www.dubai.ae/en/aboutdubai/Pages/default.aspx" class="btn btn-success btn-xs">Read more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    <div class="container">
+        <div class="well well-sm">
+            <div class="media">
+                <div class="media-left">
+                    <a href="Packages.html"><img class="media-object" src="Images/Atlantis.jpg" alt="Packages"></a>
+                </div>
+                <div class="media-body">
+                <h4 class="media-heading"><b>Dubai Packages</b></h4>
+                    <p>We have complied short stay and long stay packages to Dubai, so that whether you are merely stopping over or spending more than a week in this top destination you can make the most of your time here. We understand that each individual group and traveler is different with unique needs. If you want to customize an existing package or have something different in mind, contact us to draw up a special package for your ideal holiday to Dubai</p>
+                    <a href="Packages.html" class="btn btn-success btn-xs">Book it!</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    <div class="container">
+        <div class="well well-sm">
+            <div class="media">
+                <div class="media-left">
+                    <a href="Safari.html"><img class="media-object" src="Images/Safari.jpg" alt="Safari"></a>
+                </div>
+                <div class="media-body">
+                    <h4 class="media-heading"><b>Dubai Desert Safari</b></h4>
+                        <p>Experience changing landscapes as you leave behind the skyscrapers and traffic of the city for a truly unique experience in the mysterious, meandering sand dunes of the Dubai Desert and all that it has to offer.</p>
+                        <p>A trip to Dubai is incomplete without a Desert Safari. Experience all the flavours of Arabia in one half day trip to the desert for a memory in the making.</p>
+                        <a href="Safari.html" class="btn btn-success btn-xs">Book it!</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <div class="container">
+        <div class="well well-sm">
+            <div class="media">
+                <div class="media-left">
+                    <a href="DhowCruise.html"><img class="media-object" src="Images/Marina_cruise.jpg" alt="Marina Cruise"></a>
+                </div>
+                <div class="media-body">
+                    <h4 class="media-heading"><b>Marina Dhow Cruise</b></h4>
+                        <p>We are presenting a 2 hours Dinner Cruise from 8:30PM until 10:30PM everyday along Dubai Marina and the Palm Island. Our Dhow is located at the west side of Dubai Marina Yacht Club. After departing from Dubai Marina Yacht Club, we will be cruising the Dubai Marina channel with the Dubai Marina on one side and the Jumeirah Beach Residences on the other side. You will have amazing views of all the attractions and landmarks in that area..</p>
+                        <a href="DhowCruise.html" class="btn btn-success btn-xs">Book it!</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    
+<!---Footer-->
+    <div class="navbar navbar-inverse navbar-fixed-bottom">
+        <div class="container">
+            <p class="navbar-text pull-left">Developed by <a href="https://ae.linkedin.com/in/mohammadfadhlullah
+            "><b>Mohammad Fadhlullah</b></a></p><!--Navbar-text to center the text-->
+            <a href="http://www.facebook.com" class="navbar-btn btn-primary btn-sm pull-right">Lke us on Facebook</a>
+            <!--navbar-btn; to center text horizontally
+            btn-primary: to specify button color
+            btn: universal class for button style-->
+        </div>
+    </div>
+<!--Footer-->
+    
+    
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>

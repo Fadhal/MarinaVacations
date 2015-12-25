@@ -1,0 +1,37 @@
+body {
+        padding-bottom: 70px;
+        font-family: Calibri, sans-serif;
+        background-color: black;
+    }    
+    
+#font {
+        font-family: Century Gothic, sans-serif;
+        font-size: 80px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    }
+
+#smallfont {
+        font-family: Freestyle Script, sans-serif;
+    color: dimgrey;
+        font-size: 35px;
+        margin-top: 0px;
+    padding-top: 0px;
+    }    
+#logo {
+    padding-top: 8px;
+}
+
+#safari {
+    width: 1135px;
+    float: center;
+    padding-bottom: 20px;
+    border-radius: 20px;
+}
+
+#packages {
+    width: 1135px;
+    float: center;
+    padding-bottom: 20px;
+    border-radius: 20px;
+}
